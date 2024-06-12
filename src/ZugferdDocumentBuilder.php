@@ -260,7 +260,7 @@ class ZugferdDocumentBuilder extends ZugferdDocument
      * @param  float|null $chargeTotalAmount    __BT-108, From BASIC WL__ Sum of the surcharges at document level
      * @param  float|null $allowanceTotalAmount __BT-107, From BASIC WL__ Sum of the discounts at document level
      * @param  float|null $taxBasisTotalAmount  __BT-109, From MINIMUM__ Total invoice amount excluding sales tax
-     * @param  float|null $taxTotalAmount       __BT-110/111, From MINIMUM/BASIC WL__ if BT--6 is not null $taxTotalAmount = BT--111. Total amount of the invoice sales tax, Total tax amount in the booking currency
+     * @param  float|null $taxTotalAmount       __BT-110/111, From MINIMUM/BASIC WL__ if BT-6 is not null $taxTotalAmount = BT-111. Total amount of the invoice sales tax, Total tax amount in the booking currency
      * @param  float|null $roundingAmount       __BT-114, From EN 16931__ Rounding amount
      * @param  float|null $totalPrepaidAmount   __BT-113, From BASIC WL__ Prepayment amount
      * @return ZugferdDocumentBuilder
